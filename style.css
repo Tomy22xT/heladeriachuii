@@ -1,0 +1,148 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+.contenedor{
+    background-color: aqua;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    background: rgb(58, 181, 212);
+    color: #f3f3f3;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+  }
+ul li {
+    color: rgb(253, 253, 253);
+    background: rgb(238, 143, 0);
+    display: inline-block;
+}
+.lista li a{
+    padding: 10px 20px;
+    color: #fff;
+}
+.lista li a:hover{
+    background: rgb(245, 110, 0);
+    color: #000;
+}
+.carrousel{
+    width: 100%;
+}
+
+.conteCarrousel{
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+
+.itemCarrousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+#itemCarrousel-1{
+    background-color: rgb(223, 149, 39);
+}
+
+#itemCarrousel-2{
+    background-color: rgb(50, 200, 226);
+}
+
+#itemCarrousel-3{
+    background-color: rgb(255, 255, 255);
+}
+
+.conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+
+.itemCarrouselArrows > a > i{
+    color: white;
+}
+footer {
+  background: #1b2a4e;
+  min-height: 100px;
+}
+
+footer p {
+  color: #f3f3f3;
+  text-align: center;
+}
+
+#iconos {
+  font-size: 20px;
+  padding: 0 8px;
+  color: #f3f3f3;
+}
+h4{
+    color: #df8014;
+    text-decoration: underline;
+}
+.maps{
+    justify-content: center;
+}
+h3{
+    color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.sabores{
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: auto;
+}
+h3{
+    text-decoration: underline;
+    color: #004cff;
+    padding: 10px 20px;
+}
+h6{
+    padding: 10px 20px;
+
+}
+h5{
+    padding: 10px 20px;
+}
+h4{
+    padding: 10px 20px;
+}
+h5{
+    display: block;
+    color: #000;
+    padding: 10px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
